@@ -1,17 +1,15 @@
 # Trabalho de Algoritmos e Programação
 
-Parte 1 — Análise da aula gravada
+### Análise da aula gravada
 
-Questão 1
-Por que utilizamos laços de repetição?
+## Questão 1 - Por que utilizamos laços de repetição?
 
 Utilizamos laços de repetição para executar uma mesma tarefa várias vezes, sem precisar escrever o mesmo código repetidamente. Isso facilita a programação, economiza tempo e deixa o código mais organizado
 Um exemplo apresentado na aula foi um programa que calcula o dobro de um número. Com o laço de repetição, podemos calcular vários números sem precisar iniciar o programa novamente a cada cálculo.
 
 Referência da aula: 02:50 a 03:50 e 09:50 a 13:20.
 
-Questão 2
-Qual é a diferença entre while e do-while? Crie um exemplo em que essa diferença seja importante.
+## Questão 2 - Qual é a diferença entre while e do-while? Crie um exemplo em que essa diferença seja importante.
 
 A diferença é que o while verifica a condição antes de executar o código. Se a condição for falsa desde o início, ele não executa nenhuma vez.
 Já o do-while executa o código pelo menos uma vez, porque verifica a condição somente no final. 
@@ -19,8 +17,7 @@ Um exemplo seria um programa que pede um número ao usuário e calcula seu dobro
 
 Referência da aula: 14:00 a 16:00.
 
-Questão 3 
-No exemplo dos times em C#, por que são necessários dois laços?
+## Questão 3 - No exemplo dos times em C#, por que são necessários dois laços?
 
 São necessários dois laços porque precisamos comparar cada time com todos os outros times da lista.
 O primeiro laço escolhe o time mandante e o segundo percorre os possíveis adversários.
@@ -29,8 +26,7 @@ Dessa forma, conseguimos gerar todos os confrontos utilizando dois laços de rep
 
 Referência da aula: 31:00 a 33:00.
 
-Questão 4 
-Qual é a função do if que impede confrontos de um time contra ele mesmo?
+## Questão 4 - Qual é a função do if que impede confrontos de um time contra ele mesmo?
 
 A função do if é verificar se os dois times são diferentes antes de mostrar o confronto.
 Quando utilizamos dois laços, o programa também pode formar jogos de um time contra ele mesmo, como Atlético-MG x Atlético-MG.
@@ -39,8 +35,7 @@ Assim, o programa mostra apenas os confrontos entre times diferentes.
 
 Referência da aula: 34:00 a 35:10.
 
-Questão 5 
-Comparando Java, C# e Rust, indique duas diferenças de sintaxe e um conceito lógico que permanece igual.
+## Questão 5 - Comparando Java, C# e Rust, indique duas diferenças de sintaxe e um conceito lógico que permanece igual.
 
 A primeira diferença está na forma de escrever os laços de repetição. Em Java e C#, podemos utilizar o for com uma variável de controle, enquanto em Rust o professor mostrou o for in, que permite percorrer os elementos de uma coleção de maneira mais simples.
 A segunda diferença está na forma de trabalhar com as coleções. No exemplo de C#, o professor utiliza uma lista de strings e a propriedade Count para consultar a quantidade de elementos. Já em Rust, ele mostra uma coleção sendo percorrida diretamente pelo for in.
