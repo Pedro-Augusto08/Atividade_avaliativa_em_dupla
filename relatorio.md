@@ -4,7 +4,7 @@
 
 ## Questão 1 - Por que utilizamos laços de repetição?
 
-Utilizamos laços de repetição para executar uma mesma tarefa várias vezes, sem precisar escrever o mesmo código repetidamente. Isso facilita a programação, economiza tempo e deixa o código mais organizado
+Utilizamos laços de repetição para executar uma mesma tarefa várias vezes, sem precisar escrever o mesmo código repetidamente. Isso facilita a programação, economiza tempo e deixa o código mais organizado.
 Um exemplo apresentado na aula foi um programa que calcula o dobro de um número. Com o laço de repetição, podemos calcular vários números sem precisar iniciar o programa novamente a cada cálculo.
 
 Referência da aula: 02:50 a 03:50 e 09:50 a 13:20.
