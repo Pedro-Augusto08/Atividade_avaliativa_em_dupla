@@ -53,6 +53,8 @@ Referências da aula: 18:00 a 20:50 (Java), 27:30 a 28:20 (C#), 39:00 a 41:20 (R
 
 Os elementos de um array são organizados em sequência, ocupando posições consecutivas na memória. Cada elemento possui um índice, começando pelo 0. Por exemplo, se colocarmos o Cruzeiro como primeiro time, ele terá o índice 0, e assim sucessivamente. Para acessar um elemento específico, basta utilizar o índice da posição em que ele se encontra.
 
+“Arrays e listas encadeadas”, “Arrays” e “Terminologia”	49–55
+
 ## Questão 2 - Como os elementos de uma lista encadeada são organizados? Apresentem um desenho simples.
 
 Os elementos de uma lista encadeada são organizados em uma sequência, em que cada elemento guarda uma referência para o próximo. Diferentemente de um array, eles não precisam estar armazenados em posições consecutivas da memória. Para encontrar um elemento, precisamos seguir as referências a partir do primeiro.
@@ -61,17 +63,43 @@ Atlético-MG → Cruzeiro → América-MG → Villa Nova
 
 As setas representam as referências que ligam um elemento ao próximo.
 
+“Listas encadeadas”	51–54
+
 ## Questão 3 - Por que inserir ou excluir elementos pode exigir operações diferentes nessas duas estruturas?
 
 Inserir ou excluir elementos pode exigir operações diferentes porque, em um array, pode ser necessário deslocar os elementos para outras posições. Por exemplo, ao inserir o Tombense entre Cruzeiro e América-MG, precisamos abrir espaço para ele, deslocando os times seguintes. Já em uma lista encadeada, podemos alterar as referências entre os elementos, sem precisar deslocar os outros.
+
+“Inserindo algo no meio da lista” e “Deleções”	55–58
 
 ## Questão 4 - Uma coleção chamada “lista” em uma linguagem é necessariamente uma lista encadeada?
 
 Não. Uma coleção chamada lista não é necessariamente uma lista encadeada, pois ela pode ser baseada em um array e permitir o acesso aos elementos por índices. Por exemplo, a List<string> do C# e o Vec<String> do Rust são estruturas baseadas em arrays dinâmicos. Elas permitem adicionar novos elementos e aumentar de tamanho conforme necessário, sem precisar criar manualmente outro array.
 
+Comparação com arrays e listas encadeadas	49–58
+
 ## Questão 5 - Para guardar os times e percorrê-los repetidamente, quais vantagens vocês identificam em uma estrutura baseada em array?
 
 Uma estrutura baseada em array torna mais prático acessar e percorrer os times por índices, sem precisar seguir as referências dos elementos anteriores, como em uma lista encadeada. Isso facilita a utilização dos laços de repetição para analisar os times e gerar os confrontos do campeonato.
+
+“Arrays” e “Terminologia”	53–55
+
+## 3 - Desafio prático — Gerador de confrontos
+
+<img width="852" height="804" alt="image" src="https://github.com/user-attachments/assets/da99cb31-991f-4fe4-a11b-aaf8f7ef35f5" />
+
+<img width="836" height="762" alt="image" src="https://github.com/user-attachments/assets/86f46554-cf63-46dc-a7fc-cf647546fc60" />
+
+<img width="877" height="819" alt="image" src="https://github.com/user-attachments/assets/c1b47e97-b0b1-40ab-95c8-28a77928ff65" />
+
+<img width="872" height="803" alt="image" src="https://github.com/user-attachments/assets/345f358f-a849-4b8e-bcc5-bd5215bbbe8e" />
+
+<img width="818" height="798" alt="image" src="https://github.com/user-attachments/assets/ad2aa9d5-732b-4715-a58d-caad6b28ea2d" />
+
+<img width="894" height="777" alt="image" src="https://github.com/user-attachments/assets/a45af25d-1784-4efc-9bc3-2b7e88e19252" />
+
+
+
+
 
 
 
