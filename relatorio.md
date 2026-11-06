@@ -1,6 +1,6 @@
 # Trabalho de Algoritmos e Programação
 
-### Análise da aula gravada
+### 1 Análise da aula gravada
 
 ## Questão 1 - Por que utilizamos laços de repetição?
 
@@ -13,7 +13,8 @@ Referência da aula: 02:50 a 03:50 e 09:50 a 13:20.
 
 A diferença é que o while verifica a condição antes de executar o código. Se a condição for falsa desde o início, ele não executa nenhuma vez.
 Já o do-while executa o código pelo menos uma vez, porque verifica a condição somente no final. 
-Um exemplo seria um programa que pede um número ao usuário e calcula seu dobro. Com o do-while, o programa pode pedir o primeiro número antes de verificar se deve continuar. Já no while, se a condição inicial for falsa, o programa nem chega a pedir o número.
+Um exemplo seria um programa que pede um número ao usuário e calcula seu dobro. Com o do-while, o programa pode pedir o primeiro número antes de verificar se deve
+continuar. Já no while, se a condição inicial for falsa, o programa nem chega a pedir o número.
 
 Referência da aula: 14:00 a 16:00.
 
@@ -39,6 +40,38 @@ Referência da aula: 34:00 a 35:10.
 
 A primeira diferença está na forma de escrever os laços de repetição. Em Java e C#, podemos utilizar o for com uma variável de controle, enquanto em Rust o professor mostrou o for in, que permite percorrer os elementos de uma coleção de maneira mais simples.
 A segunda diferença está na forma de trabalhar com as coleções. No exemplo de C#, o professor utiliza uma lista de strings e a propriedade Count para consultar a quantidade de elementos. Já em Rust, ele mostra uma coleção sendo percorrida diretamente pelo for in.
-O conceito lógico que permanece igual nas três linguagens é a repetição de instruções para percorrer elementos e realizar uma tarefa. Mesmo que a escrita do código seja diferente, o objetivo e o raciocínio continuam os mesmos.
+O conceito lógico que permanece igual nas três linguagens é a repetição de instruções para percorrer elementos e realizar uma tarefa. Mesmo que a escrita do código seja
+diferente, o objetivo e o raciocínio continuam os mesmos.
 
 Referências da aula: 18:00 a 20:50 (Java), 27:30 a 28:20 (C#), 39:00 a 41:20 (Rust) e 58:55 a 59:00 (conclusão).
+
+
+
+## 2 Leitura em relação com o livro 
+
+## Questão 1 - Como os elementos de um array são organizados e acessados?
+
+Os elementos de um array são organizados em sequência, ocupando posições consecutivas na memória. Cada elemento possui um índice, começando pelo 0. Por exemplo, se colocarmos o Cruzeiro como primeiro time, ele terá o índice 0, e assim sucessivamente. Para acessar um elemento específico, basta utilizar o índice da posição em que ele se encontra.
+
+## Questão 2 - Como os elementos de uma lista encadeada são organizados? Apresentem um desenho simples.
+
+Os elementos de uma lista encadeada são organizados em uma sequência, em que cada elemento guarda uma referência para o próximo. Diferentemente de um array, eles não precisam estar armazenados em posições consecutivas da memória. Para encontrar um elemento, precisamos seguir as referências a partir do primeiro.
+
+Atlético-MG → Cruzeiro → América-MG → Villa Nova
+
+As setas representam as referências que ligam um elemento ao próximo.
+
+## Questão 3 - Por que inserir ou excluir elementos pode exigir operações diferentes nessas duas estruturas?
+
+Inserir ou excluir elementos pode exigir operações diferentes porque, em um array, pode ser necessário deslocar os elementos para outras posições. Por exemplo, ao inserir o Tombense entre Cruzeiro e América-MG, precisamos abrir espaço para ele, deslocando os times seguintes. Já em uma lista encadeada, podemos alterar as referências entre os elementos, sem precisar deslocar os outros.
+
+## Questão 4 - Uma coleção chamada “lista” em uma linguagem é necessariamente uma lista encadeada?
+
+Não. Uma coleção chamada lista não é necessariamente uma lista encadeada, pois ela pode ser baseada em um array e permitir o acesso aos elementos por índices. Por exemplo, a List<string> do C# e o Vec<String> do Rust são estruturas baseadas em arrays dinâmicos. Elas permitem adicionar novos elementos e aumentar de tamanho conforme necessário, sem precisar criar manualmente outro array.
+
+## Questão 5 - Para guardar os times e percorrê-los repetidamente, quais vantagens vocês identificam em uma estrutura baseada em array?
+
+Uma estrutura baseada em array torna mais prático acessar e percorrer os times por índices, sem precisar seguir as referências dos elementos anteriores, como em uma lista encadeada. Isso facilita a utilização dos laços de repetição para analisar os times e gerar os confrontos do campeonato.
+
+
+
