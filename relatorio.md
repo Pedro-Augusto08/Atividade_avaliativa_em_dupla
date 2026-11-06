@@ -85,6 +85,14 @@ Uma estrutura baseada em array torna mais prático acessar e percorrer os times 
 
 ## 3 - Desafio prático — Gerador de confrontos
 
+Explicação do código em Java
+
+O programa em Java utiliza um array para armazenar quatro times de futebol. O método mostrarTimes exibe os times e seus índices. Para gerar os confrontos, usamos dois laços for: um escolhe o mandante e o outro, o visitante.
+A condição if (i != j) impede que um time jogue contra ele mesmo, gerando 12 confrontos de ida e volta. Já if (i < j) evita confrontos repetidos, gerando 6 jogos de turno único.
+O programa também utiliza contadores para mostrar o total de confrontos. Para adicionar o Tombense, criamos um array maior e copiamos os times anteriores, pois os arrays em Java possuem tamanho fixo.
+
+Com cinco times, o programa passa a gerar 20 confrontos de ida e volta e 10 de turno único, reutilizando os mesmos métodos.
+
 <img width="852" height="804" alt="image" src="https://github.com/user-attachments/assets/da99cb31-991f-4fe4-a11b-aaf8f7ef35f5" />
 
 <img width="836" height="762" alt="image" src="https://github.com/user-attachments/assets/86f46554-cf63-46dc-a7fc-cf647546fc60" />
