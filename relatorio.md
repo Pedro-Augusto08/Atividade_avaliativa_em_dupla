@@ -1,6 +1,6 @@
 # Trabalho de Algoritmos e Programação
 
-### 1 Análise da aula gravada
+### 1 - Análise da aula gravada
 
 ## Questão 1 - Por que utilizamos laços de repetição?
 
@@ -47,7 +47,7 @@ Referências da aula: 18:00 a 20:50 (Java), 27:30 a 28:20 (C#), 39:00 a 41:20 (R
 
 
 
-## 2 Leitura em relação com o livro 
+## 2 - Leitura em relação com o livro 
 
 ## Questão 1 - Como os elementos de um array são organizados e acessados?
 
