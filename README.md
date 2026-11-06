@@ -1,2 +1,4 @@
 # Atividade_avaliativa_em_dupla
-Atividade demonstrando qual a lógica envolvida em uma tabela de seleção de times de futebol executada em diversas linguagens de programação
+
+## Victor Nunes Martins RA: 126221444906
+## Pedro Augusto Vieira Guimarães RA: 126221441974
